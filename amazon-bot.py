@@ -51,7 +51,7 @@ if __name__ == "__main__":
     password = getpass.getpass()
     while(True):
         price = get_price()
-        if float(price) < float(270):
+        if float(price) < float(250):
             send_email(price, password)
         time.sleep(86400)
         
